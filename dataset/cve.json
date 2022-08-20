@@ -1,0 +1,220 @@
+{
+  "Piwigo": {
+    "CVE-2016-10083": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "7df3830c81716b959a2d0d3a0d8216b860ae0dc7"
+      ]
+    },
+    "CVE-2016-10085": {
+      "vuln_type": 7,
+      "fixing_commits": [
+        "4b33a0fd199fd445b15a49927ea6a9a153e3877d"
+      ]
+    },
+    "CVE-2017-10682": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "3dd6812412289a199564e63fffd0a9754010b9e0"
+      ]
+    },
+    "CVE-2017-17822": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "33a03e9afb8fb00c9d8f480424d549311fe03d40"
+      ]
+    },
+    "CVE-2017-17823": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "91ef7909a5c51203f330cbecf986472900b60983"
+      ]
+    },
+    "CVE-2017-17824": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "f7c8e0a947a857ff5d31dafd03842df41959b84c"
+      ]
+    },
+    "CVE-2017-5608": {
+      "vuln_type": 6,
+      "fixing_commits": [
+        "6ec3f2d0fae0437f0c2cc8c475a26fb6aeb0d4cb"
+      ]
+    },
+    "CVE-2017-9463": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "42920897ce927c236728d387f61bf03d117109a2"
+      ]
+    }
+  },
+  "mantisbt": {
+    "CVE-2011-2938": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "317f3db3a3c68775de3acf3b15f55b1e3c18f93b"
+      ]
+    },
+    "CVE-2011-3357": {
+      "vuln_type": 7,
+      "fixing_commits": [
+        "6ede60d3db9e202044f135001589cce941ff6f0f",
+        "5b93161f3ece2f73410c296fed8522f6475d273d"
+      ]
+    },
+    "CVE-2011-3578": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "6ede60d3db9e202044f135001589cce941ff6f0f",
+        "5b93161f3ece2f73410c296fed8522f6475d273d"
+      ]
+    },
+    "CVE-2014-1608": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "00b4c17088fa56594d85fe46b6c6057bb3421102"
+      ]
+    },
+    "CVE-2014-6316": {
+      "vuln_type": 13,
+      "fixing_commits": [
+        "e66ecc9f886a97a3b54a8bdaa9afbfa6902f1d9a"
+      ]
+    },
+    "CVE-2014-7146": {
+      "vuln_type": 3,
+      "fixing_commits": [
+        "84017535f8718685d755d58af7a39d80f52ffca8",
+        "bed19db954359043515300c995ebc40ebb97265a"
+      ]
+    },
+    "CVE-2014-8598": {
+      "vuln_type": 13,
+      "fixing_commits": [
+        "80a15487cda89afb00ce866da8e24d76808dcdb4"
+      ]
+    },
+    "CVE-2014-8987": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "49c3d0893091fb1bb6b92639e59a72203be0bc4a"
+      ]
+    },
+    "CVE-2014-9089": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "b0021673ab23249244119bde3c7fcecd4daa4e7f"
+      ]
+    },
+    "CVE-2014-9269": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "511564ccfce59ec9a7c5b456d8c0ba184c5fa3b4"
+      ]
+    },
+    "CVE-2014-9272": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "05378e00313a8c591de19e74a4212473a8c6a7dd"
+      ]
+    },
+    "CVE-2014-9280": {
+      "vuln_type": 8,
+      "fixing_commits": [
+        "599364b264eff504a01a3edc9bd08f2d70c2ff7c"
+      ]
+    },
+    "CVE-2014-9281": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "e5fc835a34a73e656b5d7fa32b998df81c997f8a"
+      ]
+    },
+    "CVE-2014-9571": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "132cd6d041f8ef5811e4eca8bdb516c893ebb52e",
+        "6d47c047f71c9e2293320ea5b8d94284a8e15939"
+      ]
+    },
+    "CVE-2014-9573": {
+      "vuln_type": 9,
+      "fixing_commits": [
+        "7cc4539fca65a61c48a40e31787e7d4751a7f9bd",
+        "69c2d28dd5ad86ce8438b8348b31f20f7726414d"
+      ]
+    },
+    "CVE-2014-9701": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "d95f070db852614fa18ccca6a4f12f4bffede1fd",
+        "e7e2b5503580e42db9d91e0d599d61d3ff03c27e"
+      ]
+    },
+    "CVE-2016-5364": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "5068df2dcf79c34741c746c9b27e0083f2a374da",
+        "11ab3d6c82a1d3a89b1024f77349fb60a83743c5"
+      ]
+    },
+    "CVE-2016-6837": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "7086c2d8b4b20ac14013b36761ac04f0abf21a4e"
+      ]
+    },
+    "CVE-2017-12061": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "17f9b94f031ba93ae2a727bca0e68458ecd08fb0",
+        "c73ae3d3d4dd4681489a9e697e8ade785e27cba5"
+      ]
+    },
+    "CVE-2017-12062": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "9b5b71dadbeeeec27efea59f562ac5bd6d2673b7"
+      ]
+    },
+    "CVE-2017-6797": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "a2d90ecabf3bcf3aa22ed9dbbecfd3d37902956f",
+        "c272c3f65da9677e505ff692b1f1e476b3afa56e"
+      ]
+    },
+    "CVE-2017-6799": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "1677251434b6e8b2be8f1d4376a3e78f7be14d95"
+      ]
+    },
+    "CVE-2017-7897": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "a1c719313d61b07bbe8700005807b8195fdc32f1"
+      ]
+    },
+    "CVE-2019-15074": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "9cee1971c498bbe0a72bca1c773fae50171d8c27"
+      ]
+    },
+    "CVE-2019-15539": {
+      "vuln_type": 10,
+      "fixing_commits": [
+        "bd094dede74ff6e313e286e949e2387233a96eea"
+      ]
+    },
+    "CVE-2019-15715": {
+      "vuln_type": 4,
+      "fixing_commits": [
+        "5fb979604d88c630343b3eaf2b435cd41918c501",
+        "cebfb9acb3686e8904d80bd4bc80720b54ba08e5"
+      ]
+    }
+  }
+}
