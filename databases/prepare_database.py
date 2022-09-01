@@ -5,23 +5,28 @@ import time
 import py2neo
 
 DUMPED_NEO4J = [
-        "Piwigo-2.9.0.dump",
+        "mantisbt-1677251434b6e8b2be8f1d4376a3e78f7be14d95_postpatch.dump",
+        "mantisbt-1677251434b6e8b2be8f1d4376a3e78f7be14d95_prepatch.dump",
+        "mantisbt-f2f856193760e63eed3e06b031f56c742e7642d7_postpatch.dump",
+        "mantisbt-f2f856193760e63eed3e06b031f56c742e7642d7_prepatch.dump",
+        "mantisbt-release-1.1.0.dump",
+        "mantisbt-release-2.2.0.dump",
 ]
 
 for x in DUMPED_NEO4J:
     assert os.path.exists(x), f"{x} must be exists"
 
-if os.path.exists(os.path.join(".", "neo4j-community-4.4.4")):
-    print("[+] Check neo4j-community-4.4.4 exists")
+if os.path.exists(os.path.join(".", "neo4j-community-3.3.2")):
+    print("[+] Check neo4j-community-3.3.2 exists")
 else:
-    print("[-] Check neo4j-community-4.4.4 not exists")
-    os.system("wget  https://dist.neo4j.org/neo4j-community-4.4.4-unix.tar.gz ")
-    os.system("tar -zxvf neo4j-community-4.4.4-unix.tar.gz")
+    print("[-] Check neo4j-community-3.3.2 not exists")
+    os.system("wget  https://dist.neo4j.org/neo4j-community-3.3.2-unix.tar.gz ")
+    os.system("tar -zxvf neo4j-community-3.3.2-unix.tar.gz")
 
 result_list = {}
 for dumped_file, port in zip(DUMPED_NEO4J, range(40000, 40000 + DUMPED_NEO4J.__len__() * 2, 2)):
     connector_name, extension = os.path.splitext(dumped_file)
-    os.system(f"cp -r ./neo4j-community-4.4.4 ./{connector_name}")
+    os.system(f"cp -r ./neo4j-community-3.3.2 ./{connector_name}")
     os.system(
             f'sed  -i "s/#dbms.connector.bolt.listen_address=:7687/dbms.connector.bolt.listen_address=:{port}/g" {connector_name}/conf/neo4j.conf')
     os.system(
